@@ -1,0 +1,31 @@
+.text{
+    display:inline;
+    font-size:25px;
+    color:black;
+    font-weight: bold;
+}
+
+.opaque{
+    font-size:25px;
+    color:#595959;
+    font-weight: bold;
+}
+
+.buttom{
+    
+    background-color: transparent;
+    border: none;
+}
+
+.buttom:hover{
+    background-color: #1341e9;
+}
+
+.dropdown-menu{
+    color:red;
+    background-color: green;
+}
+
+.contenedor{
+    margin-left: -80px;
+}

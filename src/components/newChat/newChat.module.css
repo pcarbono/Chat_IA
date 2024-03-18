@@ -1,0 +1,19 @@
+.newChat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid white; 
+    background:transparent;
+    height: 40px;
+}
+
+.icon{
+    margin: 10px;
+}
+
+.text{
+    font-size: 15px;
+}
+
+

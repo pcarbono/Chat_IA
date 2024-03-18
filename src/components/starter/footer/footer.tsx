@@ -7,11 +7,11 @@ export default component$(() => {
 
   return (
     <footer>
-      <div class="container">
-        <a href="https://www.builder.io/" target="_blank" class={styles.anchor}>
-          <span>Made with ♡ by Builder.io</span>
+      <div>
+        <a href="https://www.jw.org/es" target="_blank" class={styles.anchor}>
+          <span>Made by Apex Analitic &copy;</span>
           <span class={styles.spacer}>|</span>
-          <span>{serverTime.value.date}</span>
+          <span>2024</span>
         </a>
       </div>
     </footer>

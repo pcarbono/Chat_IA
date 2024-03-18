@@ -1,0 +1,36 @@
+.card{
+    margin: 10px;
+    
+}
+
+.user{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.user:hover{
+    background-color: #1341e9;
+}
+
+.image{
+    width:30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #6c757d;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.name{
+    
+    font-size: 15px;
+    margin-right: 20px;
+}

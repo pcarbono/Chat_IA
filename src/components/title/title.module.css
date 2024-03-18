@@ -1,0 +1,23 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2px;
+
+    
+    
+}
+
+.image{
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.title{
+    margin-left: -25px;
+    font-size: 22px;
+    
+}
+
+

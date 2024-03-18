@@ -1,0 +1,23 @@
+.install{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.apple{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+
+}
+
+
+.google{
+    cursor: pointer;
+   
+}

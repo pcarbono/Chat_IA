@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: var(--qwik-dark-background);
+  /* background: red; */
   color: var(--qwik-dark-text);
   overflow-x: hidden;
 }

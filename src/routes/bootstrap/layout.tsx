@@ -1,11 +1,10 @@
 import { component$, Slot, useStyles$ } from "@builder.io/qwik";
-import { routeLoader$ } from "@builder.io/qwik-city";
 import type { RequestHandler } from "@builder.io/qwik-city";
+import { Navbar } from "~/components/bootstrap";
 
-import Header from "../components/starter/header/header";
-import Footer from "../components/starter/footer/footer";
+// Add bootstrap styles
 
-import styles from "./styles.css?inline";
+import bootstrapStyles from "../../../node_modules/bootstrap/dist/css/bootstrap.min.css?inline";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -18,21 +17,20 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
   });
 };
 
-export const useServerTimeLoader = routeLoader$(() => {
-  return {
-    date: new Date().toISOString(),
-  };
-});
-
 export default component$(() => {
-  useStyles$(styles);
+  useStyles$(bootstrapStyles);
   return (
     <>
-      {/* <Header /> */}
-      <main>
+      <Navbar />
+      <div class="container">
+        <div class="row mb-2 mt-4">
+          <p>
+            Bootstrap is a powerful, feature-packed frontend toolkit. Build
+            anything—from prototype to production—in minutes.
+          </p>
+        </div>
         <Slot />
-      </main>
-      {/* <Footer /> */}
+      </div>
     </>
   );
 });
