@@ -20,13 +20,13 @@
 }
 
 .upgrade{
+    position:absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position:absolute;
+    justify-content: flex-start;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 50%;
     height: 70px;
 
     
@@ -48,6 +48,25 @@
 .store{
     height: 65%;
     margin: 10px;
+}
+
+.help{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 70px;
+}
+
+.helpIcon{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
 }
 
 
